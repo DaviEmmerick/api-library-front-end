@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
 *,
 *::before,
 *::after {
@@ -7,7 +9,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: ribeye;
   line-height: 1.5;
   background-color: #fff;
 }
