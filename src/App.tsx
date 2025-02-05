@@ -1,10 +1,11 @@
-function App() {
+import { HomePage } from "./pages";
+import './styles/global.css';
+
+export function App() {
 
   return (
     <>
-    <p>Olá Mundo</p>
+      <HomePage />
     </>
   )
 }
-
-export default App
