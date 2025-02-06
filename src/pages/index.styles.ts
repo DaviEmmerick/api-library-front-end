@@ -13,6 +13,7 @@ export const Header = styled.div`
   width: 100%;
   height: 3.5rem;
   background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
 `;
 
 export const Options = styled.div`
@@ -25,23 +26,20 @@ export const Options = styled.div`
 
 `;
 
-export const Span = styled.span`
-  font-size: .7rem;
-  color: white;
-`;
 
 export const Title = styled.p`
-  font-size: 1.6rem;
-  color: #FF9E40;
+  font-size: 1.1rem;
+  margin-top: .4rem;
   max-width: 3.5rem;
   margin-left: 8rem;
   line-height: 1.5rem;
+
 `;
 
 export const SubTitles = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 5rem;
+  gap: 3rem;
   align-items: center;
 `;
 
@@ -57,6 +55,10 @@ export const Information = styled.div`
 export const Text = styled.p`
   color: #FF9E40;
   font-size: 2.62rem;
+`;
+
+export const Style = styled.p`
+  color: #FF9E40;
 `;
 
 export const Colors = styled.span`
@@ -99,4 +101,27 @@ export const Contact = styled.button `
     background-color: white; 
     color: black; 
   }
+`;
+
+export const ChangeLanguage = styled.p`
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding-right: 6rem;
+  transform: translateY(1rem);
+  gap: 1rem;
+`;
+
+export const Icon = styled.img`
+  width: 2rem;
+  height: 2rem;
+`;
+
+export const Flags = styled.div`
+  transform: translateY(-.15rem);
+  
+  :last-child{
+    margin-left: .15rem;
+  }
+  
 `;
