@@ -1,11 +1,11 @@
-📌 **Front-End da API de Livros**
+# 📌 **Front-End da API de Livros**
 
 Este projeto é o front-end de uma aplicação que consome uma Rest API para gerenciar livros. Através dessa aplicação, o usuário pode criar, avaliar, deletar livros e receber sugestões. Durante o desenvolvimento, foram utilizados conceitos como React Query, I18, Axios, Zod e TypeScript.
 
-🛠️ **Funcionalidades**  
+# 🛠️ **Funcionalidades**  
 --> Criar, Deletar, Avaliar e Receber Sugestões de Livros
 
-✏️ **Tecnologias utilizadas**  
+# ✏️ **Tecnologias utilizadas**  
 - Linguagem: JavaScript e TypeScript com React  
 - Estilização: HTML, CSS e Styled-Components  
 - Gerenciamento de Estado: React Query  
@@ -13,7 +13,7 @@ Este projeto é o front-end de uma aplicação que consome uma Rest API para ger
 - Comunicação com a API: Axios  
 - Internacionalização: I18n  
 
-🚀 **Instalação**  
+# 🚀 **Instalação**  
 1️⃣ Clone o repositório:
 
 ```bash
@@ -33,10 +33,10 @@ npm install
 npm run dev
 ```
 
-✨ **Implementações futuras**  
+# ✨ **Implementações futuras**  
 - Implementar sistema de autenticação e segurança  
 - Finalizar a validação do formulário  
 - Consumir as rotas da API com React Query  
 
-📄 **Licença**  
+# 📄 **Licença**  
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
