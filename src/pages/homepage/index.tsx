@@ -3,11 +3,13 @@ import "../../locales/i18n.js";
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
 import { HeaderPage } from "../../components/header/index.tsx";  
+import { Interaction } from "../interaction/index.tsx";
 
 export const HomePage = () => {
   const { t } = useTranslation(); 
 
   return (
+    <>
     <div> 
       <Background>
       <HeaderPage /> 
@@ -22,5 +24,7 @@ export const HomePage = () => {
         </Information>
       </Background>
     </div>
+    <Interaction />
+    </>
   );
 };

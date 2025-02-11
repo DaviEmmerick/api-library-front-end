@@ -1,13 +1,19 @@
 {
   "title": "LIVRARIA",
   "subtitle": "LUMO",
-  "create_book": "CRIAR LIVRO",
-  "delete_book": "DELETAR LIVRO",
-  "suggestions": "SUGESTÕES",
   "illuminating": "Iluminando",
   "stories": "histórias, inspirando leitores",
   "slogan": "Um lugar ideal para criar, avaliar e pedir sugestões de novos livros!",
   "about_us": "SOBRE NÓS",
   "contact": "CONTATO",
-  "library_text": " A LUMO é mais do que uma livraria, é um espaço dedicado à paixão pelos livros e ao poder da leitura. Nossa missão é conectar leitores a histórias que inspiram e transformam mentes. Com um catálogo diversificado, oferecemos uma experiência única para cada visitante. Seja em nossa loja física ou online, proporcionamos um ambiente acolhedor para quem acredita que um livro pode mudar o mundo. Venha descobrir sua próxima grande leitura na LUMO! 📚✨"
+  "library_text": " A LUMO é mais do que uma livraria, é um espaço dedicado à paixão pelos livros e ao poder da leitura. Nossa missão é conectar leitores a histórias que inspiram e transformam mentes. Com um catálogo diversificado, oferecemos uma experiência única para cada visitante. Seja em nossa loja física ou online, proporcionamos um ambiente acolhedor para quem acredita que um livro pode mudar o mundo. Venha descobrir sua próxima grande leitura na LUMO! 📚✨",
+  "create_book": "Crie um novo livro",
+  "suggestions_create": "Indique um livro para adicionarmos no estoque da livraria",
+  "delete_book": "Delete um livro",
+  "suggestions_delete": "Escolha um livro para ser deletado do estoque da livraria",
+  "random_book": "Peça uma sugestão",
+  "suggestions_random": "Receba a indicação de um livro aleatório do nosso estoque",
+  "create": "Criar",
+  "delete": "Deletar",
+  "suggestion": "Sugestão"
 }

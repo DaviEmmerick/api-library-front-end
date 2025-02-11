@@ -1,13 +1,19 @@
 {
   "title": "BOOKSTORE",
   "subtitle": "LUMO",
-  "create_book": "CREATE BOOK",
-  "delete_book": "DELETE BOOK",
-  "suggestions": "SUGGESTIONS",
   "illuminating": "Illuminating",
   "stories": "stories, inspiring readers",
   "slogan": "An ideal place to create, review, and request suggestions for new books!",
   "about_us": "ABOUT US",
   "contact": "CONTACT",
-  "library_text": "LUMO is more than just a bookstore; it’s a space dedicated to the passion for books and the power of reading. Our mission is to connect readers with stories that inspire and transform minds. With a diverse catalog, we offer a unique experience for each visitor. Whether in our physical store or online, we provide a welcoming environment for those who believe that a book can change the world. Come discover your next great read at LUMO! 📚✨"
+  "library_text": "LUMO is more than just a bookstore; it’s a space dedicated to the passion for books and the power of reading. Our mission is to connect readers with stories that inspire and transform minds. With a diverse catalog, we offer a unique experience for each visitor. Whether in our physical store or online, we provide a welcoming environment for those who believe that a book can change the world. Come discover your next great read at LUMO! 📚✨",
+  "create_book": "Create a new book",
+  "suggestions_create": "Indicate a book to add to the bookstore inventory",
+  "delete_book": "Delete a book",
+  "suggestions_delete": "Choose a book to delete from the bookstore inventory",
+  "random_book": "Request a suggestion",
+  "suggestions_random": "Get a random book recommendation from our inventory",
+  "create": "Create",
+  "delete": "Deletar",
+  "suggestion": "Suggestion"
 }

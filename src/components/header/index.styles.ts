@@ -20,14 +20,6 @@ export const Style = styled.p`
   color: #FF9E40;
 `;
 
-export const SubTitles = styled.div`
-  display: flex;
-  justify-content: space-between;
-  gap: 3rem;
-  align-items: center;
-`;
-
-
 export const ChangeLanguage = styled.p`
   display: flex;
   justify-content: flex-end;

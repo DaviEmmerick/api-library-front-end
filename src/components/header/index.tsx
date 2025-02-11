@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Header, Options, Title, Style, SubTitles, ChangeLanguage, Flags, Icon, Tag } from "./index.styles";
+import { Header, Options, Title, Style, ChangeLanguage, Flags, Icon, Tag } from "./index.styles";
 
 export const HeaderPage = () => {
   const { t, i18n } = useTranslation(); 
@@ -22,11 +22,6 @@ export const HeaderPage = () => {
           </Title>
         </Tag>
 
-          <SubTitles>
-            <a href="#criar">{t("create_book")}</a>
-            <a href="#deletar">{t("delete_book")}</a>
-            <a href="#sugestoes">{t("suggestions")}</a>
-          </SubTitles>
         </Options>
       </Header>
 
