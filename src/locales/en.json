@@ -23,5 +23,14 @@
   "marketing_news": "Releases & News",
   "marketing_indicate": "Indicate",
   "copy": "© 2025 Lumo Bookstore Inc. All rights reserved.",
-  "terms": "Terms Of Services"
+  "terms": "Terms Of Services",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "submit": "Submit",
+  "contacts": "Contacts",
+  "location": "Address",
+  "days": "Opening Hours",
+  "opening": "Monday to Friday from 09:00 to 20:00",
+  "clock": "Saturday from 09:00 to 15:00"
 }

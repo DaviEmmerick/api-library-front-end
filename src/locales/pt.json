@@ -23,5 +23,15 @@
   "marketing_news": "Lançamentos & Novidades",
   "marketing_indicate": "Indique",
   "copy": "© 2025 Lumo Livraria Inc. Todos os direitos reservados.",
-  "terms": " Termos do Serviço"
+  "terms": " Termos do Serviço",
+  "name": "Nome",
+  "email": "Email",
+  "message": "Mensagem",
+  "submit": "Enviar",
+  "contacts": "Contatos",
+  "location": "Localização",
+  "days": "Horários de Funcionamento",
+  "opening": "Segunda a Sexta das 09:00 às 20:00",
+  "clock": "Sábado das 09:00 às 15:00"
+   
 }

@@ -21,7 +21,6 @@ export const Section = styled.div`
   flex-direction: column;
   margin-block: 3rem;
   padding-left: 5rem;
-
 `;
 
 export const Title = styled.span`
@@ -31,7 +30,6 @@ export const Title = styled.span`
 
 export const Text = styled.p`
   font-size: 1.1rem;
-
 `;
 
 export const BackToTheTop = styled.button`
@@ -77,30 +75,29 @@ export const Copy = styled.p`
   font-size: .7rem;
   margin-block: 2.5rem;
   padding-left: 5rem;
-
 `;
 
 export const Terms = styled.a`
   display: flex;
   justify-content: flex-end;
   padding-right: 5rem;
-  transform: translateY(-3.3rem);
   font-size: .7rem;
+  transform: translateY(-3.8rem);
 `;
 
 export const Topics = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding-right: 5rem;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  right: 5rem;
+  top: 106%;
 `;
 
 export const Marketing = styled.p`
   font-size: .8rem;
   line-height: 2rem;
-  transform: translateY(-16rem);
+  margin-top: 0;
 `;
 
-export const Description = styled.div`
-  transform: translateY(-6rem);
-`;

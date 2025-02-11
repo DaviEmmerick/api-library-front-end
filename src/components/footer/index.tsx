@@ -1,6 +1,6 @@
 import { 
   Main, Line, Section, BackToTheTop, Title, Text, Linkedin, Icons, 
-  Github, Instagram, Copy, Terms, Topics, Marketing, Description } from "./index.styles";
+  Github, Instagram, Copy, Terms, Topics, Marketing  } from "./index.styles";
 import "../../locales/i18n.js"; 
 import { useTranslation } from "react-i18next";
 
@@ -34,20 +34,22 @@ export const Footer = () => {
         </Icons>
       </Section>
 
-      <Topics>
-        <Marketing> {t("marketing_books")} </Marketing>
-        <Marketing> {t("marketing_explore")} </Marketing>
-        <Marketing> {t("marketing_news")}  </Marketing>
-        <Marketing> {t("marketing_indicate")} </Marketing>
-      </Topics>
+      <div>
+        <Topics>
+          <Marketing> {t("marketing_books")} </Marketing>
+          <Marketing> {t("marketing_explore")} </Marketing>
+          <Marketing> {t("marketing_news")}  </Marketing>
+          <Marketing> {t("marketing_indicate")} </Marketing>
+        </Topics>
+      </div>
 
-      <Description>
+      <div>
         <Line />
         <Copy> {t("copy")} </Copy>
         <Terms href="src/assets/TERMOS DE SERVIÇO DA LUMO LIVRARIA.pdf" target="_blank">
           {t("terms")}
         </Terms>
-      </Description>
+      </div>
     </Main>
   );
 };
