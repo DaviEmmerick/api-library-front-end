@@ -92,7 +92,7 @@ export const Topics = styled.div`
   justify-content: flex-end;
   position: absolute;
   right: 5rem;
-  top: 106%;
+  margin-top: -16rem; //Alterar depois
 `;
 
 export const Marketing = styled.p`

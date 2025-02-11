@@ -21,7 +21,9 @@ export const HomePage = () => {
           <About>
             <Link to="/about">{t("about_us")}</Link>   
           </About> 
-          <Contact>{t("contact")}</Contact>
+          <Contact>
+            <Link to="/contact">{t("contact")}</Link>       
+          </Contact>
         </Information>
       </Background>
     </div>
