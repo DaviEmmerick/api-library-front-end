@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+📌 **Front-End da API de Livros**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é o front-end de uma aplicação que consome uma Rest API para gerenciar livros. Através dessa aplicação, o usuário pode criar, avaliar, deletar livros e receber sugestões. Durante o desenvolvimento, foram utilizados conceitos como React Query, I18, Axios, Zod e TypeScript.
 
-Currently, two official plugins are available:
+🛠️ **Funcionalidades**  
+--> Criar, Deletar, Avaliar e Receber Sugestões de Livros
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✏️ **Tecnologias utilizadas**  
+- Linguagem: JavaScript e TypeScript com React  
+- Estilização: HTML, CSS e Styled-Components  
+- Gerenciamento de Estado: React Query  
+- Validação de Dados: Zod  
+- Comunicação com a API: Axios  
+- Internacionalização: I18n  
 
-## Expanding the ESLint configuration
+🚀 **Instalação**  
+1️⃣ Clone o repositório:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+git clone https://github.com/seu-usuario/api-livros.git
+cd api-livros
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2️⃣ Instale as dependências:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
 ```
+
+3️⃣ Inicie o servidor:
+
+```bash
+npm run dev
+```
+
+✨ **Implementações futuras**  
+- Implementar sistema de autenticação e segurança  
+- Finalizar a validação do formulário  
+- Consumir as rotas da API com React Query  
+
+📄 **Licença**  
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
