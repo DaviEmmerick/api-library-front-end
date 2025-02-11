@@ -26,7 +26,7 @@ export const HeaderPage = () => {
       </Header>
 
       <ChangeLanguage>
-        <p>IDIOMA:</p>
+        <p> {t("languages")}:</p>
         <Flags>
           <button onClick={() => changeLanguage("pt")}>
             <Icon src="src/assets/brasil.png" alt="Português" />

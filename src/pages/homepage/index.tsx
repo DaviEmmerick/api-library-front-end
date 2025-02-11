@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
 import { HeaderPage } from "../../components/header/index.tsx";  
 import { Interaction } from "../interaction/index.tsx";
+import { Footer } from "../../components/footer/index.tsx";
 
 export const HomePage = () => {
   const { t } = useTranslation(); 
@@ -25,6 +26,7 @@ export const HomePage = () => {
       </Background>
     </div>
     <Interaction />
+    <Footer />
     </>
   );
 };

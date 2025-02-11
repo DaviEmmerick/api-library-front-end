@@ -1,6 +1,7 @@
 {
   "title": "LIVRARIA",
   "subtitle": "LUMO",
+  "languages": "IDIOMA",
   "illuminating": "Iluminando",
   "stories": "histórias, inspirando leitores",
   "slogan": "Um lugar ideal para criar, avaliar e pedir sugestões de novos livros!",
@@ -15,5 +16,12 @@
   "suggestions_random": "Receba a indicação de um livro aleatório do nosso estoque",
   "create": "Criar",
   "delete": "Deletar",
-  "suggestion": "Sugestão"
+  "suggestion": "Sugestão",
+  "back": "VOLTAR",
+  "marketing_books": "Livros & Indicações",
+  "marketing_explore": "Explore",
+  "marketing_news": "Lançamentos & Novidades",
+  "marketing_indicate": "Indique",
+  "copy": "© 2025 Lumo Livraria Inc. Todos os direitos reservados.",
+  "terms": " Termos do Serviço"
 }

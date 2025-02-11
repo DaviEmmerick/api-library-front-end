@@ -1,6 +1,7 @@
 {
   "title": "BOOKSTORE",
   "subtitle": "LUMO",
+  "languages": "LANGUAGES",
   "illuminating": "Illuminating",
   "stories": "stories, inspiring readers",
   "slogan": "An ideal place to create, review, and request suggestions for new books!",
@@ -15,5 +16,12 @@
   "suggestions_random": "Get a random book recommendation from our inventory",
   "create": "Create",
   "delete": "Deletar",
-  "suggestion": "Suggestion"
+  "suggestion": "Suggestion",
+  "back": "BACK",
+  "marketing_books": "Books & Recommendations",
+  "marketing_explore": "Explore",
+  "marketing_news": "Releases & News",
+  "marketing_indicate": "Indicate",
+  "copy": "© 2025 Lumo Bookstore Inc. All rights reserved.",
+  "terms": "Terms Of Services"
 }
