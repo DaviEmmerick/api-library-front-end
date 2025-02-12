@@ -38,10 +38,14 @@ export const Input = styled.input`
 export const Textarea = styled.textarea`
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
   font-size: 1rem;
   resize: none;
   min-height: 100px;
+`;
+
+export const Error = styled.div`
+  font-size: .6rem;
+  color: red;
 `;
 
 export const Button = styled.button`
@@ -49,7 +53,6 @@ export const Button = styled.button`
   background-color: #000;
   color: white;
   border: none;
-  border-radius: 4px;
   font-size: 1rem;
   cursor: pointer;
   transition: background 0.3s;
