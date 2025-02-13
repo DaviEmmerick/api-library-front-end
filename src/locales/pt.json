@@ -14,9 +14,9 @@
   "suggestions_delete": "Escolha um livro para ser deletado do estoque da livraria",
   "random_book": "Peça uma sugestão",
   "suggestions_random": "Receba a indicação de um livro aleatório do nosso estoque",
-  "create": "Criar",
-  "delete": "Deletar",
-  "suggestion": "Sugestão",
+  "create": "CRIAR",
+  "delete": "DELETAR",
+  "suggestion": "SUGESTÃO",
   "back": "VOLTAR",
   "marketing_books": "Livros & Indicações",
   "marketing_explore": "Explore",
@@ -32,6 +32,13 @@
   "location": "Localização",
   "days": "Horários de Funcionamento",
   "opening": "Segunda a Sexta das 09:00 às 20:00",
-  "clock": "Sábado das 09:00 às 15:00"
+  "clock": "Sábado das 09:00 às 15:00",
+  "create_books": "Criar Livro",
+  "number": "Nome do Livro",
+  "streaming": "Tipo de Streaming",
+  "F": "Físico",
+  "category": "Categoria",
+  "send": "CRIAR LIVRO",
+  "close": "FECHAR"
    
 }

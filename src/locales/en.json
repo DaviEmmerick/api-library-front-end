@@ -14,9 +14,9 @@
   "suggestions_delete": "Choose a book to delete from the bookstore inventory",
   "random_book": "Request a suggestion",
   "suggestions_random": "Get a random book recommendation from our inventory",
-  "create": "Create",
-  "delete": "Delete",
-  "suggestion": "Suggestion",
+  "create": "CREATE",
+  "delete": "DELETE",
+  "suggestion": "SUGGESTION",
   "back": "BACK",
   "marketing_books": "Books & Recommendations",
   "marketing_explore": "Explore",
@@ -32,5 +32,12 @@
   "location": "Address",
   "days": "Opening Hours",
   "opening": "Monday to Friday from 09:00 to 20:00",
-  "clock": "Saturday from 09:00 to 15:00"
+  "clock": "Saturday from 09:00 to 15:00",
+  "number": "Name of the book",
+  "F": "Physical",
+  "create_books": "Create Book",
+  "streaming": "Streaming type",
+  "category": "Category",
+  "send": "CREATE BOOK",
+  "close": "CLOSE"
 }
